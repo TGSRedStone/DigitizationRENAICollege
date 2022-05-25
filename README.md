@@ -12,4 +12,4 @@
 
 可以先不管BundleRes这个东西，这是别的项目用的
 
-![资产命名和储存规范](C:\Users\TGS\Desktop\技术美术笔记\资产命名和储存规范.jpg)
+![资产命名和储存规范](https://github.com/TGSRedStone/DigitizationRENAICollege/blob/main/image/%E8%B5%84%E4%BA%A7%E5%91%BD%E5%90%8D%E5%92%8C%E5%82%A8%E5%AD%98%E8%A7%84%E8%8C%83.jpg)
