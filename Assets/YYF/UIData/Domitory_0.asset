@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fd87b6911ac0a4fac74c0c0a2dd83c, type: 3}
+  m_Name: Domitory_0
+  m_EditorClassIdentifier: 
+  DormitoryNum: 0
+  sliderValue:
+  - 0.12
+  - 0.76
+  - 0.62025315
+  Energy: 79
+  Water: 49
+  temperature: 28
+  humidity: 46.8
+  IsolationNumber: 0
+  temperatureNumber: 0
+  post:
+  - "\u5BBF\u7BA1"
+  - "\u7EF4\u4FEE"
+  - "\u6E05\u6D01"
+  Name:
+  - "\u5F20\u5148\u751F"
+  - "\u6768\u5148\u751F"
+  - "\u738B\u5973\u58EB"
+  TelephoneNumber:
+  - 13728992333
+  - 13820345392
+  - 18822313243
+  eventNumber: 050000000a00000014000000
+  eventString:
+  - " 608 \u5730\u677F\u635F\u574F"
+  - " 108 \u98CE\u6247\u635F\u574F"
+  - " 2\u697C  \u5395\u6240\u635F\u574F"
+  - " 304 \u4F9B\u7535\u5F02\u5E38"
+  - " 305 \u4F9B\u7535\u5F02\u5E38"
