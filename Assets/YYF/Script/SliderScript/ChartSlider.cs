@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -32,7 +32,7 @@ public class ChartSlider : SliderDataBase
         ThisGameObjectSlider.value = SliderStartValue;
         ThisGameObjectTextMeshPro.text = (int)(SliderStartValue * 100) + "%";
     }
-    public virtual void FindSliderValueGamObject()
+    public override void FindSliderValueGamObject()
     {
         ThisGameObjectSlider = this.GetComponentInChildren<Slider>();
         UIScript = this.GetComponentInParent<BuildingUI>();

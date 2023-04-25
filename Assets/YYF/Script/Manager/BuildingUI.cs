@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,43 +9,43 @@ public  class BuildingUI :UIBase,ChartLinInterFace
   
     public int thisBuildingNum;
     public DormitoryUISDormitoryUIScriptBase DormistoryList;
-    private int UINum=0;
+    private new int UINum=0;
     private UIManager uiManager;
    
-    #region µÚÒ»Ãæ°å×ó±ß±äÁ¿
+    #region ç¬¬ä¸€é¢æ¿å·¦è¾¹å˜é‡
     [SerializeField]
-    [Tooltip("ÓÃµçÁ¿")]
+    [Tooltip("ç”¨ç”µé‡")]
     public float Energy;
     [SerializeField]
-    [Tooltip("ÓÃË®Á¿")]
+    [Tooltip("ç”¨æ°´é‡")]
     public float Water;
     public float waterEnergy;
     public ChartSlider chartSlider;
     [SerializeField]
     public Slider[] SliderCountData = new Slider[3];
-    [Tooltip("ÎÂ¶È")]
+    [Tooltip("æ¸©åº¦")]
     public TextMeshProUGUI temperature;
-    [Tooltip("Êª¶È")]
+    [Tooltip("æ¹¿åº¦")]
     public TextMeshProUGUI humidity;
-    [Tooltip("¸ôÀëÈËÊı")]
+    [Tooltip("éš”ç¦»äººæ•°")]
     public TextMeshProUGUI IsolationNumber;
-    [Tooltip("ÌåÎÂÒì³£ÈËÊı")]
+    [Tooltip("ä½“æ¸©å¼‚å¸¸äººæ•°")]
     public TextMeshProUGUI temperatureNumber;
     [Space(20)]
     public TextMeshProUGUI[] sliderText = new TextMeshProUGUI[3];
-    [Tooltip("¹ÜÀíÈËÖ°Î»")]
+    [Tooltip("ç®¡ç†äººèŒä½")]
     public TextMeshProUGUI[] post = new TextMeshProUGUI[3];
-    [Tooltip("¹ÜÀíÈËÃû³Æ")]
+    [Tooltip("ç®¡ç†äººåç§°")]
     public TextMeshProUGUI[] Name = new TextMeshProUGUI[3];
-    [Tooltip("µç»°ºÅÂë")]
+    [Tooltip("ç”µè¯å·ç ")]
     public TextMeshProUGUI[] TelephoneNumber = new TextMeshProUGUI[3];
-    [Tooltip("Î´½â¾ö£¬´ı´¦Àí£¬ÒÑ½â¾ö¸öÊı")]
+    [Tooltip("æœªè§£å†³ï¼Œå¾…å¤„ç†ï¼Œå·²è§£å†³ä¸ªæ•°")]
     public TextMeshProUGUI[] eventNumber = new TextMeshProUGUI[3];
-    [Tooltip("ÊÂ¼şÁĞ±í")]
+    [Tooltip("äº‹ä»¶åˆ—è¡¨")]
     public TextMeshProUGUI[] eventString = new TextMeshProUGUI[5];
     
     #endregion
-    #region µÚÒ»Ãæ°åÓÒ±ß±äÁ¿
+    #region ç¬¬ä¸€é¢æ¿å³è¾¹å˜é‡
 
     #endregion
     private void Awake()
@@ -63,16 +63,16 @@ public  class BuildingUI :UIBase,ChartLinInterFace
     public void  DrawChartline() {
     
     }
-    public void OutToCamera_1()
+    public override void OutToCamera_1()
     {
         LiftUI.DOPlayBackwards();
         RightUI.DOPlayBackwards();
         //DownUI.DOPlayBackwards();
         MoveOutDownUI();
-        Debug.Log("³É¹¦Ö´ĞĞoutToCamera1");
+        Debug.Log("æˆåŠŸæ‰§è¡ŒoutToCamera1");
     }
 
-    public void StartToCamera_1()
+    public override void StartToCamera_1()
     {
         L_B1.GetComponent<Button>().interactable = false;
         L_B2.GetComponent<Button>().interactable = true;
@@ -85,14 +85,14 @@ public  class BuildingUI :UIBase,ChartLinInterFace
         Rtweener.SetAutoKill(false);
         Dtweener.SetAutoKill(false); 
     }
-    public void OutToCamera_2()
+    public override void OutToCamera_2()
     {
         LiftUI_2.DOPlayBackwards();
         RightUI_2.DOPlayBackwards();
         MoveOutDownUI();
     }
 
-    public void StartToCamera_2()
+    public override void StartToCamera_2()
     {
         L_B2.GetComponent<Button>().interactable = false;
         L_B1.GetComponent<Button>().interactable = true;
@@ -105,14 +105,14 @@ public  class BuildingUI :UIBase,ChartLinInterFace
        
 
     }
-    public void OutToCamera_3()
+    public override void OutToCamera_3()
     {
         LiftUI_3.DOPlayBackwards();
         RightUI_3.DOPlayBackwards();
         MoveOutDownUI();
     }
 
-    public void StartToCamera_3()
+    public override void StartToCamera_3()
     {
         L_B3.GetComponent<Button>().interactable = false;
         L_B1.GetComponent<Button>().interactable = true;
@@ -123,8 +123,8 @@ public  class BuildingUI :UIBase,ChartLinInterFace
         Ltweener3.SetAutoKill(false);
         Rtweener3.SetAutoKill(false);
     }
-   
-    public void SwitchUI() {
+
+    public override void SwitchUI() {
         if (UINum == 0) OutToCamera_1();
         if (UINum == 1) OutToCamera_2();
         if (UINum == 2) OutToCamera_3();

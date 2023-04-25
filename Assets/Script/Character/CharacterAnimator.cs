@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Character
+namespace Characters
 {
     public enum CharacterAnimatorMode
     {

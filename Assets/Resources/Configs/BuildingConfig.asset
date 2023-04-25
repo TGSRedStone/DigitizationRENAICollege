@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff92545d8637594c845475dec7930fd, type: 3}
+  m_Name: BuildingConfig
+  m_EditorClassIdentifier: 
+  buildingSettings:
+  - BuildingName: "\u884C\u653F\u697C"
+    BuildingPos: {x: 206, y: 20, z: 185.5}
+    Direction: 1
+    CameraDistance: 65
+  - BuildingName: "\u5927\u5B66\u751F\u6D3B\u52A8\u4E2D\u5FC3"
+    BuildingPos: {x: 454, y: 20, z: 463}
+    Direction: 0
+    CameraDistance: 80
+  - BuildingName: "\u56FE\u4E66\u9986"
+    BuildingPos: {x: 314, y: 20, z: 366}
+    Direction: 1
+    CameraDistance: 135
+  - BuildingName: "\u7EFC\u5408\u670D\u52A1\u697C"
+    BuildingPos: {x: 665, y: 20, z: 399}
+    Direction: 1
+    CameraDistance: 60
+  - BuildingName: "\u4F53\u80B2\u9986"
+    BuildingPos: {x: 95, y: 20, z: 362}
+    Direction: 1
+    CameraDistance: 95
+  - BuildingName: "\u6FA1\u5802"
+    BuildingPos: {x: 560, y: 20, z: 478}
+    Direction: 1
+    CameraDistance: 35
+  - BuildingName: "\u4E00\u6559\u5B66\u697C"
+    BuildingPos: {x: 563, y: 20, z: 392}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E8C\u6559\u5B66\u697C"
+    BuildingPos: {x: 576, y: 20, z: 365}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E09\u6559\u5B66\u697C"
+    BuildingPos: {x: 209, y: 20, z: 386}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u56DB\u6559\u5B66\u697C"
+    BuildingPos: {x: 209, y: 20, z: 360}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E94\u6559\u5B66\u697C"
+    BuildingPos: {x: 558, y: 20, z: 114}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u516D\u6559\u5B66\u697C"
+    BuildingPos: {x: 561, y: 20, z: 69.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E00\u5B9E\u9A8C\u697C"
+    BuildingPos: {x: 592.5, y: 20, z: 302}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E8C\u5B9E\u9A8C\u697C"
+    BuildingPos: {x: 209, y: 20, z: 278.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E09\u5B9E\u9A8C\u697C"
+    BuildingPos: {x: 209, y: 20, z: 248.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u56DB\u5B9E\u9A8C\u697C\uFF08\u5316\u5DE5\u697C\uFF09"
+    BuildingPos: {x: 83, y: 20, z: 436}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E94\u5B9E\u9A8C\u697C"
+    BuildingPos: {x: 494.5, y: 20, z: 111}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E00\u98DF\u5802"
+    BuildingPos: {x: 526.5, y: 20, z: 528.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u4E8C\u98DF\u5802"
+    BuildingPos: {x: 732, y: 20, z: 414.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "\u6559\u804C\u5DE5\u5BBF\u820D"
+    BuildingPos: {x: 692, y: 20, z: 111}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "1\u5BBF"
+    BuildingPos: {x: 692, y: 20, z: 161}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "2\u5BBF"
+    BuildingPos: {x: 692, y: 20, z: 211}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "3\u5BBF"
+    BuildingPos: {x: 692, y: 20, z: 261}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "4\u5BBF"
+    BuildingPos: {x: 692, y: 20, z: 311}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "5\u5BBF"
+    BuildingPos: {x: 693, y: 20, z: 478.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "6\u5BBF"
+    BuildingPos: {x: 598.5, y: 20, z: 484.8}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "7\u5BBF"
+    BuildingPos: {x: 695.5, y: 20, z: 512.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "8\u5BBF"
+    BuildingPos: {x: 587.8, y: 20, z: 522}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "9\u5BBF"
+    BuildingPos: {x: 684.8, y: 20, z: 550}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "10\u5BBF"
+    BuildingPos: {x: 570.7, y: 20, z: 560}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "11\u5BBF"
+    BuildingPos: {x: 625, y: 20, z: 575.8}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "12\u5BBF"
+    BuildingPos: {x: 678, y: 20, z: 591}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "13\u5BBF"
+    BuildingPos: {x: 555.5, y: 20, z: 595.5}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "14\u5BBF"
+    BuildingPos: {x: 593.8, y: 20, z: 606.6}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "15\u5BBF"
+    BuildingPos: {x: 633.6, y: 20, z: 618}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "16\u5BBF"
+    BuildingPos: {x: 671.9, y: 20, z: 625}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "17\u5BBF"
+    BuildingPos: {x: 543, y: 20, z: 639}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "18\u5BBF"
+    BuildingPos: {x: 580.9, y: 20, z: 649.8}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "19\u5BBF"
+    BuildingPos: {x: 621, y: 20, z: 661}
+    Direction: 1
+    CameraDistance: 85
+  - BuildingName: "20\u5BBF"
+    BuildingPos: {x: 659.5, y: 20, z: 672}
+    Direction: 1
+    CameraDistance: 85
