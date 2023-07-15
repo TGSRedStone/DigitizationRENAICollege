@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using QFramework;
 
-public sealed class TopBarPanel : UI
+public sealed class TopBarPanel : UIBase
 {
     [SerializeField]
     private Button baseInfo;
@@ -29,38 +29,38 @@ public sealed class TopBarPanel : UI
 
         baseInfo.onClick.AddListener(() =>
         {
-            if (ManagerOfUI.Instance.FindUI<BaseInfoPanel>())
+            if (UIManager.Instance.FindUI<BaseInfoPanel>())
             {
-                ManagerOfUI.Instance.CloseUI<BaseInfoPanel>();
+                UIManager.Instance.CloseUI<BaseInfoPanel>();
             }
             else
             {
-                ManagerOfUI.Instance.CloseAllUI();
-                ManagerOfUI.Instance.OpenUI<BaseInfoPanel>();
+                UIManager.Instance.CloseAllUI();
+                UIManager.Instance.OpenUI<BaseInfoPanel>();
             }
         });
         chooseBuilding.onClick.AddListener(() =>
         {
-            if (ManagerOfUI.Instance.FindUI<SelectBuildingPanel>())
+            if (UIManager.Instance.FindUI<SelectBuildingPanel>())
             {
-                ManagerOfUI.Instance.CloseUI<SelectBuildingPanel>();
+                UIManager.Instance.CloseUI<SelectBuildingPanel>();
             }
             else
             {
-                ManagerOfUI.Instance.CloseAllUI();
-                ManagerOfUI.Instance.OpenUI<SelectBuildingPanel>();
+                UIManager.Instance.CloseAllUI();
+                UIManager.Instance.OpenUI<SelectBuildingPanel>();
             }
         });
         setting.onClick.AddListener(() =>
         {
-            if (ManagerOfUI.Instance.FindUI<SettingPanel>())
+            if (UIManager.Instance.FindUI<SettingPanel>())
             {
-                ManagerOfUI.Instance.CloseUI<SettingPanel>();
+                UIManager.Instance.CloseUI<SettingPanel>();
             }
             else
             {
-                ManagerOfUI.Instance.CloseAllUI();
-                ManagerOfUI.Instance.OpenUI<SettingPanel>();
+                UIManager.Instance.CloseAllUI();
+                UIManager.Instance.OpenUI<SettingPanel>();
             }
         });
         exit.onClick.AddListener(() =>

@@ -24,7 +24,7 @@ public class EventTemplate : MonoBehaviour
     {
         GetComponent<Button>().onClick.AddListener(() =>
         {
-            EventPanel eventPanel = ManagerOfUI.Instance.OpenUI<EventPanel>() as EventPanel;
+            EventPanel eventPanel = UIManager.Instance.OpenUI<EventPanel>() as EventPanel;
             eventPanel.Init(schoolEvent);
         });
 

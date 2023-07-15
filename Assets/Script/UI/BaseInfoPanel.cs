@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using XCharts.Runtime;
 
-public sealed class BaseInfoPanel : UI
+public sealed class BaseInfoPanel : UIBase
 {
     private enum TypeScreen
     {

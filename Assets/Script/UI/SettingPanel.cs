@@ -7,7 +7,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SettingPanel : UI
+public class SettingPanel : UIBase
 {
     [SerializeField] private CanvasGroup canvasGroup;
 

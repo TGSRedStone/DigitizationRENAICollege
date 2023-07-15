@@ -82,7 +82,7 @@ public class SchoolEventManager : MonoBehaviour
         Events.List.Add(tempEvent);
         SaveEvent();
 
-        EventPanel temp = ManagerOfUI.Instance.OpenUI<EventPanel>() as EventPanel;
+        EventPanel temp = UIManager.Instance.OpenUI<EventPanel>() as EventPanel;
         temp.Init(tempEvent);
 
         OnEventCreate?.Invoke();

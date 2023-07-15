@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: StaffConfig
   m_EditorClassIdentifier: 
   Staffs:
-  - Avatar: {fileID: 21300000, guid: dbe6fa7eaf1b7b947ae8b13b1340f0f2, type: 3}
+  - Avatar: {fileID: 21300000, guid: 76cead7126cd7cd4fa17b5dd128683ff, type: 3}
     Name: "\u5F20\u4E09"
     Office: "\u4FDD\u536B\u5904\u8D1F\u8D23\u4EBA"
     PhoneNumber: 123 4567 8910
-  - Avatar: {fileID: 21300000, guid: dbe6fa7eaf1b7b947ae8b13b1340f0f2, type: 3}
+  - Avatar: {fileID: 21300000, guid: 76cead7126cd7cd4fa17b5dd128683ff, type: 3}
     Name: "\u674E\u56DB"
     Office: "\u6C34\u7535\u5DE5"
     PhoneNumber: 109 8765 4321

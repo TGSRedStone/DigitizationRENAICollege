@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SettingManager : MonoBehaviour
 {
-    public static SettingManager Instance;
+    public static SettingManager Instance { get; private set; }
 
     private const string SETTING_SAVE_PATH = "/Event";
     private const string SETTING_NAME = "Setting.json";

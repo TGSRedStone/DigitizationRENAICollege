@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EventPanel : UI
+public class EventPanel : UIBase
 {
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private AudioSource audioSource;
@@ -50,7 +50,7 @@ public class EventPanel : UI
         {
             schoolEvent.isKnownOrHandled = true;
             SchoolEventManager.Instance.SaveEvent();
-            ManagerOfUI.Instance.CloseUI<EventPanel>();
+            UIManager.Instance.CloseUI<EventPanel>();
         });
     }
 

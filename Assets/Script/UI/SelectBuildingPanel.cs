@@ -8,7 +8,7 @@ using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 using XCharts.Runtime;
 
-public class SelectBuildingPanel : UI
+public class SelectBuildingPanel : UIBase
 {
     [Header("面板")]
     [SerializeField]
@@ -125,7 +125,7 @@ public class SelectBuildingPanel : UI
 
     private void ChangeBuilding(int index)
     {
-        ManagerOfUI.Instance.ControlCamera(
+        UIManager.Instance.ControlCamera(
             model.BuildingList[index].BuildingPos,
             Quaternion.Euler(Vector3.zero),
             Quaternion.Euler(Vector3.right * 45f + (model.BuildingList[index].Direction == Direction.South ? Vector3.zero : (Vector3.up * 180f))),
